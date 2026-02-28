@@ -15,7 +15,7 @@ export default function Home() {
         <span className={title({ color: "violet" })}>beautiful&nbsp;</span>
         <br />
         <span className={title()}>
-         coño de la madre hijueputa malparido desgraciado
+          websites regardless of your design experience.
         </span>
         <div className={subtitle({ class: "mt-4" })}>
           Beautiful, fast and modern React UI library.
