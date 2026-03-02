@@ -7,6 +7,11 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-    --font-sans: "font", sans-serif;
+    --font-sans: "Inter", sans-serif;
     --font-mono: "monospace", monospace;
+}
+
+/* Smooth scroll offset for fixed navbar */
+[id] {
+    scroll-margin-top: 5rem;
 }

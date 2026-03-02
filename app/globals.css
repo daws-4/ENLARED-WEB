@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@plugin '../hero.ts';
+
+@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+    --color-brand-50: #eff6ff;
+    --color-brand-100: #dbeafe;
+    --color-brand-200: #bfdbfe;
+    --color-brand-300: #93c5fd;
+    --color-brand-400: #60a5fa;
+    --color-brand-500: #3b82f6;
+    --color-brand-600: #2563eb;
+    --color-brand-700: #1d4ed8;
+    --color-brand-800: #1e40af;
+    --color-brand-900: #1e3a8a;
+}
+
+.hero-pattern {
+    background-color: #0c4a6e;
+    background-image: linear-gradient(rgba(12, 74, 110, 0.8), rgba(12, 74, 110, 0.9)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
+}
