@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import { Providers } from "./providers";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: "ENLARED VE C.A. | Soluciones en Telecomunicaciones y Tecnología",
@@ -19,7 +16,7 @@ export default function RootLayout({
     return (
         <html lang="es" className="scroll-smooth">
             <body
-                className={`${inter.className} text-gray-800 antialiased bg-gray-50 flex flex-col min-h-screen`}
+                className="font-sans text-gray-800 antialiased bg-gray-50 flex flex-col min-h-screen"
             >
                 <Providers>{children}</Providers>
             </body>
